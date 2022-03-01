@@ -1,0 +1,40 @@
+.home-container{
+    position: relative;
+    padding-top: 100px;
+    font-family:sans-serif;
+    font-style: normal;
+    .home-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        .top-left{
+            width: 50%;
+            margin-right: 20px;
+            .heading{
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 40px;
+            }
+            .sub-head{
+                margin-top: 12px;
+                color: #757575;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 32px;
+            }
+            color: black;
+        }
+        .top-right{
+            // width: 70%;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+            .top-img{
+                height: 500px;
+                width: 500px;
+            }
+        }
+   
+    }
+}
