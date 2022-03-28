@@ -16,4 +16,24 @@
             <img class="top-img" src="https://iconflux.com/uploads/enterprise/hrms-solution-1165440796.webp" alt="">
         </div>
     </div>
+
+    <div class="home-body">
+        <div class="our-services">
+            <div class="title"> Our Services</div>
+            <div class="service-card">
+                <div class="card" *ngFor="let service of SERVICES_LIST">
+                    <div>{{service}} </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="our-services">
+            <div class="title"> Partner / Associates</div>
+            <div class="service-card">
+                <div class="pa-card" *ngFor="let pa of partnerAssociates">
+                    <div>{{pa}} </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
